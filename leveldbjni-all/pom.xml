@@ -57,19 +57,19 @@
     <dependency>
       <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-osx</artifactId>
-      <version>1.8</version>
+      <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-linux32</artifactId>
-      <version>1.8</version>
+      <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-linux64</artifactId>
-      <version>1.8</version>
+      <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -81,13 +81,13 @@
     <dependency>
       <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-win32</artifactId>
-      <version>1.8</version>
+      <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-win64</artifactId>
-      <version>1.8</version>
+      <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
