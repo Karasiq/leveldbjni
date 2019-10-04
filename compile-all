@@ -11,4 +11,5 @@ cd ../leveldbjni-linux64 && ../compile-native && \
 cd ../leveldbjni-linux64-aarch64 && ../compile-native && \
 cd ../leveldbjni-linux64-ppc64le && ../compile-native && \
 cd ../leveldbjni-sunos64-amd64 && ../compile-native && \
-cd ../leveldbjni-sunos64-sparcv9 && ../compile-native
+cd ../leveldbjni-sunos64-sparcv9 && ../compile-native && \
+cd ../leveldbjni-all && ../compile

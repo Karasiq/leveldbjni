@@ -95,11 +95,14 @@
   </scm>
 
   <distributionManagement>
-    <site>
-      <id>website.fusesource.org</id>
-      <name>website</name>
-      <url>dav:http://fusesource.com/forge/dav/${forge-project-id}/maven/${project.version}</url>
-    </site>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
   </distributionManagement> 
   
   <developers>
