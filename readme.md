@@ -18,7 +18,7 @@ You just need to add the following dependency to your Maven POM:
 
     <dependencies>
       <dependency>
-        <groupId>org.fusesource.leveldbjni</groupId>
+        <groupId>com.wavesplatform.leveldbjni</groupId>
         <artifactId>leveldbjni-all</artifactId>
         <version>1.8</version>
       </dependency>
@@ -30,7 +30,7 @@ If you want to use only one or some but not all native drivers, then directly us
 
     <dependencies>
       <dependency>
-        <groupId>org.fusesource.leveldbjni</groupId>
+        <groupId>com.wavesplatform.leveldbjni</groupId>
         <artifactId>leveldbjni-linux64</artifactId>
         <version>1.8</version>
       </dependency>
@@ -39,7 +39,7 @@ If you want to use only one or some but not all native drivers, then directly us
 If you have the leveljni native driver DLL/SO library already separately installed e.g. by a package manager (see [issue 90](https://github.com/fusesource/leveldbjni/issues/90)), then you could depend on the Java "launcher" without the JAR containing the OS specific native driver like this:
 
       <dependency>
-        <groupId>org.fusesource.leveldbjni</groupId>
+        <groupId>com.wavesplatform.leveldbjni</groupId>
         <artifactId>leveldbjni</artifactId>
         <version>1.8</version>
       </dependency>

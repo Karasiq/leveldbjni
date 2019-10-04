@@ -34,12 +34,12 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.fusesource.leveldbjni</groupId>
+    <groupId>com.wavesplatform.leveldbjni</groupId>
     <artifactId>leveldbjni-project</artifactId>
     <version>99-master-SNAPSHOT</version>
   </parent>
 
-  <groupId>org.fusesource.leveldbjni</groupId>
+  <groupId>com.wavesplatform.leveldbjni</groupId>
   <artifactId>leveldbjni-all</artifactId>
   <version>99-master-SNAPSHOT</version>
   <packaging>bundle</packaging>
@@ -49,67 +49,67 @@
       
   <dependencies>
     <dependency>
-      <groupId>org.fusesource.leveldbjni</groupId>
+      <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni</artifactId>
       <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.fusesource.leveldbjni</groupId>
+      <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-osx</artifactId>
       <version>1.8</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.fusesource.leveldbjni</groupId>
+      <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-linux32</artifactId>
       <version>1.8</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.fusesource.leveldbjni</groupId>
+      <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-linux64</artifactId>
       <version>1.8</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.fusesource.leveldbjni</groupId>
+      <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-freebsd64</artifactId>
       <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.fusesource.leveldbjni</groupId>
+      <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-win32</artifactId>
       <version>1.8</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.fusesource.leveldbjni</groupId>
+      <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-win64</artifactId>
       <version>1.8</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.fusesource.leveldbjni</groupId>
+      <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-sunos64-amd64</artifactId>
       <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.fusesource.leveldbjni</groupId>
+      <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-sunos64-sparcv9</artifactId>
       <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.fusesource.leveldbjni</groupId>
+      <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-linux64-ppc64le</artifactId>
       <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.fusesource.leveldbjni</groupId>
+      <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-linux64-aarch64</artifactId>
       <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
@@ -169,7 +169,7 @@
       
       <dependencies>
         <dependency>
-          <groupId>org.fusesource.leveldbjni</groupId>
+          <groupId>com.wavesplatform.leveldbjni</groupId>
           <artifactId>leveldbjni</artifactId>
           <version>99-master-SNAPSHOT</version>
           <classifier>sources</classifier>

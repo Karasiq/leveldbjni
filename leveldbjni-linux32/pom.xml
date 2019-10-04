@@ -34,12 +34,12 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.fusesource.leveldbjni</groupId>
+    <groupId>com.wavesplatform.leveldbjni</groupId>
     <artifactId>leveldbjni-project</artifactId>
     <version>99-master-SNAPSHOT</version>
   </parent>
 
-  <groupId>org.fusesource.leveldbjni</groupId>
+  <groupId>com.wavesplatform.leveldbjni</groupId>
   <artifactId>leveldbjni-linux32</artifactId>
   <version>99-master-SNAPSHOT</version>
   
@@ -48,7 +48,7 @@
       
   <dependencies>
     <dependency>
-      <groupId>org.fusesource.leveldbjni</groupId>
+      <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni</artifactId>
       <version>99-master-SNAPSHOT</version>
     </dependency>
@@ -82,7 +82,7 @@
           <name>leveldbjni</name>
           <classified>false</classified>
           <nativeSrcDependency>
-            <groupId>org.fusesource.leveldbjni</groupId>
+            <groupId>com.wavesplatform.leveldbjni</groupId>
             <artifactId>leveldbjni</artifactId>
             <version>${project.version}</version>
             <classifier>native-src</classifier>
