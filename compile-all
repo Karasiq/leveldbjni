@@ -1,0 +1,14 @@
+export SNAPPY_HOME=`cd ../snappy; pwd`
+export LEVELDB_HOME=`cd ../leveldb; pwd`
+export LEVELDBJNI_HOME=`pwd`
+./compile && \
+cd leveldbjni-win32 && ../compile-native && \
+cd ../leveldbjni-win64 && ../compile-native && \
+cd ../leveldbjni-osx && ../compile-native && \
+cd ../leveldbjni-freebsd64 && ../compile-native && \
+cd ../leveldbjni-linux32 && ../compile-native && \
+cd ../leveldbjni-linux64 && ../compile-native && \
+cd ../leveldbjni-linux64-aarch64 && ../compile-native && \
+cd ../leveldbjni-linux64-ppc64le && ../compile-native && \
+cd ../leveldbjni-sunos64-amd64 && ../compile-native && \
+cd ../leveldbjni-sunos64-sparcv9 && ../compile-native
