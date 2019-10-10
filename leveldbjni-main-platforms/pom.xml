@@ -36,52 +36,52 @@
   <parent>
     <groupId>com.wavesplatform.leveldbjni</groupId>
     <artifactId>leveldbjni-project</artifactId>
-    <version>1.9.0-SNAPSHOT</version>
+    <version>99-master-SNAPSHOT</version>
   </parent>
 
   <groupId>com.wavesplatform.leveldbjni</groupId>
-  <artifactId>leveldbjni-all</artifactId>
-  <version>1.9.0-SNAPSHOT</version>
+  <artifactId>leveldbjni-main-platforms</artifactId>
+  <version>99-master-SNAPSHOT</version>
   <packaging>bundle</packaging>
   
   <name>${project.artifactId}</name>
-  <description>An uber jar which contains all the leveldbjni platform libraries and dependencies</description>
+  <description>An uber jar which contains most widely used leveldbjni platform libraries and dependencies</description>
       
   <dependencies>
     <dependency>
       <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni</artifactId>
-      <version>1.9.0-SNAPSHOT</version>
+      <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-osx</artifactId>
-      <version>1.9.0-SNAPSHOT</version>
+      <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-linux32</artifactId>
-      <version>1.9.0-SNAPSHOT</version>
+      <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-linux64</artifactId>
-      <version>1.9.0-SNAPSHOT</version>
+      <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-win32</artifactId>
-      <version>1.9.0-SNAPSHOT</version>
+      <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.wavesplatform.leveldbjni</groupId>
       <artifactId>leveldbjni-win64</artifactId>
-      <version>1.9.0-SNAPSHOT</version>
+      <version>99-master-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
 
@@ -135,7 +135,7 @@
         <dependency>
           <groupId>com.wavesplatform.leveldbjni</groupId>
           <artifactId>leveldbjni</artifactId>
-          <version>1.9.0-SNAPSHOT</version>
+          <version>99-master-SNAPSHOT</version>
           <classifier>sources</classifier>
           <optional>true</optional>
         </dependency>
