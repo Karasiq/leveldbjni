@@ -90,7 +90,9 @@
           <configureArgs>
             <arg>--with-leveldb=${env.LEVELDB_HOME}</arg>
             <arg>--with-snappy=${env.SNAPPY_HOME}</arg>
+            <arg>--build=x86_64-unknown-linux-gnu</arg>
           </configureArgs>
+          <platform>linux64</platform>
         </configuration>
       </plugin>
     </plugins>
