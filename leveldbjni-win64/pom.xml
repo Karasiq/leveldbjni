@@ -92,6 +92,8 @@
             <arg>--with-snappy=${env.SNAPPY_HOME}</arg>
           </configureArgs>
           <packageDirectory>${basedir}/../leveldbjni/target/generated-sources/hawtjni/native-package</packageDirectory>
+          <platform>windows64</platform>
+          <windowsBuildTool>msbuild</windowsBuildTool>
         </configuration>
       </plugin>
     </plugins>
